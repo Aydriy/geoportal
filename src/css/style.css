@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+}
+
+.navbar a {
+  cursor: pointer;
+}
+
+.navbar-logo {
+  height: 90%;
+}
+
+.navbar-logo-container {
+  position: relative;
+  height: 55px;
+  width: 270px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#cfd9df), to(#e2ebf0));
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  height: 30000px;
+}
+/*# sourceMappingURL=style.css.map */

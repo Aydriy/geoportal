@@ -1,0 +1,102 @@
+.tabs
+    margin-bottom: 134px
+    .container
+        min-height: 660px
+        background: url(tabs-bg.png);
+        background-size: cover
+
+    .nav-pills
+        display: flex
+        justify-content: center
+        z-index: 100
+        .nav-item
+            background: #EBEBEB
+            a
+                border-radius: 0
+                display: flex
+                justify-content: center
+                align-items: center
+                
+    .tab-content
+        .tab-pane
+            h2
+                font-size: 48px;
+                color: #FFFFFF;
+            .tabs-img-description
+                display: flex
+                justify-content: center
+                align-items: center
+                img
+                    height: 273px
+                    width: 273px
+                p
+                    color: #FFFFFF;
+                    margin-bottom: 0
+                    
+@media (min-width: 992px)
+    .nav-pills
+        .nav-item
+            width: 225.47px;
+            height: 60px;
+            margin-top: 66px
+            &:first-child
+                margin-right: 25px
+            a
+                width: 225.47px;
+                height: 60px;
+    .tab-content
+        .tab-pane
+            h2
+                margin-top: 50px
+            .tabs-img-description
+                margin-top: 61px
+                img
+                    margin-right: 135px
+                    margin-left: 105px
+                p
+                    font-size: 18px;
+                    width: 470px
+                    
+@media (min-width: 768px) and (max-width: 992px)
+    .nav-pills
+        .nav-item
+            margin-top: 33px
+            width: 200px;
+            height: 60px;
+            &:first-child
+                margin-right: 25px
+            a
+                width: 200px;
+                height: 60px;
+    .tabs-img-description
+        margin-top: 40px
+        display: flex
+        flex-direction: column
+        img
+            margin-right: 0
+            margin-left: 0 
+        p
+            width: 600px
+            margin-top: 30px
+    
+@media (max-width: 768px)
+    .nav-pills
+        .nav-item
+            margin-top: 20px
+            width: 150px;
+            height: 60px;
+            &:first-child
+                margin-right: 5px
+            a
+                width: 150px;
+                height: 60px;
+    .tabs-img-description
+        margin-top: 40px
+        display: flex
+        flex-direction: column
+        img
+            margin-right: 0
+            margin-left: 0 
+        p
+            width: 100%
+            margin-top: 30px

@@ -1,0 +1,119 @@
+.contact
+    height: 100%
+    background: url(contact-bg.png)
+    background-size: cover
+    .contact-header
+        padding-top: 74px
+        h2
+            font-size: 48px;
+            color: #FFFFFF;
+        h5
+            font-size: 24px;
+            color: #FFFFFF;
+    .contact-form-container
+        margin-top: 76px
+        justify-content: center
+
+    .form-contacts
+        .navbar-nav-contacts .nav-item-contacts
+            margin-bottom: 30px
+    
+    .nav-desctiption-contacts
+        font-size: 18px;
+        position: relative
+        color: #FFFFFF;
+        span
+            margin-left: 30px
+        
+    
+    .point
+        display: flex
+        align-items: center
+        justify-content: center
+        svg:nth-child(2)
+            position: absolute
+            margin-bottom: 6px
+        
+    .clock
+        display: flex
+        align-items: center
+        justify-content: center
+        svg:nth-child(2)
+            position: absolute
+            margin-left: 2px
+
+    .form
+        height: 570px
+        label
+            font-size: 16px
+            line-height: 22px
+            color: #FFFFFF
+            margin-bottom: 25px
+            
+        input
+            border-bottom: 1px solid #FFFFFF !important
+            background: none
+            border: none
+            border-radius: 0px
+            color: #ffffff
+
+    .text-area
+        label
+            color: #BDBDBD
+        textarea
+            border-bottom: 1px solid #FFFFFF !important
+            background: none
+            border: none
+            border-radius: 0px
+            color: #ffffff
+
+    .contact-button
+        width: 168px;
+        height: 55px;
+        margin-top: 30px
+        background: #005FA3
+        outline: none !important
+        border: none
+        transition: 0.2s
+        border-radius: 0
+        float: right
+        &:hover
+            transition: 0.2s
+            background: #08385a
+        span
+            font-family: Lato;
+            font-size: 18px;
+            line-height: 25px;
+            color: #FFFFFF;
+
+@media (min-width: 992px)
+    .form-contacts
+        margin-right: 194px
+    .nav-desctiption-contacts
+        span
+            margin-left: 30px
+    .form
+        width: 570px
+
+
+@media (min-width: 576px) and (max-width: 992px)
+    .contact-form-container
+        flex-direction: column
+    .form-contacts
+        .navbar-nav-contacts
+            display: grid
+            grid-template-columns: 250px 250px
+    .nav-desctiption-contacts
+        span
+            margin-left: 10px
+
+@media (max-width: 576px)
+    .contact-form-container
+        flex-direction: column
+    .form-contacts
+        .navbar-nav-contacts
+            display: grid
+            grid-template-columns: 300px
+    .nav-desctiption-contacts
+        span
+            margin-left: 10px

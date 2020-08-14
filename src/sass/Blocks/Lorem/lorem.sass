@@ -1,0 +1,86 @@
+.lorem
+    padding-bottom: 135px
+    padding-top: 135px
+    background: #ffffff
+    &-cards-container
+        display: flex
+        flex-wrap: wrap
+        @media (min-width: 1200px) 
+            margin-left: 70px
+        @media (max-width: 1200px) 
+            justify-content: space-between
+            .lorem-card
+                margin: auto
+    &-container-description
+        display: flex;
+        flex-direction: column
+    &-title
+        margin-bottom: 53px
+        h2
+            font-size: 24px;
+            line-height: 33px
+            color: #BDBDBD;
+            margin-bottom: 0
+        h5
+            font-size: 48px;
+            color: #333333;
+            span
+                color: #005fa3
+    &-description
+        @media (min-width: 1200px) 
+            width: 430px;
+            height: 100%
+        p
+            font-size: 18px;
+            line-height: 25px;
+            color: #000000;
+     
+    &-building
+        filter: brightness(0%) saturate(100%)
+        
+            
+    &-card
+        margin: 15px
+        width: 270px;
+        height: 270px;
+        background: #EBEBEB
+        &:last-child
+            background: #005FA3;
+            .lorem-building
+                filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%)
+            .lorem-card-number
+                color: #ffffff
+            .lorem-card-text
+                color: #ffffff
+    .lorem-card, .lorem-card-body 
+        display: flex
+        justify-content: center
+        align-items: center
+    .card-body-description
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-left: 15px
+    .lorem-card-number
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 66px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000000;
+        padding-bottom: 19px
+        margin-bottom: 0
+    .lorem-card-text
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+
+@media (min-width: 1200px) 
+    .card
+        width: calc((100% - 60px) / 3)
+@media (min-width: 768px) and (max-width: 1199px)
+    .card
+        width: calc((100% - 60px) / 2)
+@media (max-width: 768px)
+    .card
+        width: calc((100%) / 1)

@@ -1,0 +1,119 @@
+.navbar
+    z-index: 1000
+    width: 100%;
+    @media (min-width: 1200px) 
+        height: 97px
+        &-blue
+            top: -97px
+            transform: translateY(97px)
+        
+
+     
+    
+
+    a
+        cursor: pointer
+    &-blue
+        transition: 1s
+        .container
+            .navbar-collapse
+                .navbar-nav
+                    .nav-item
+                        a
+                            color: #000000
+    .nav-svg
+        position: absolute
+        left: 0    
+    @media (max-width: 1200px)  
+        &-blue
+            top: -80px
+            transform: translateY(80px)
+    @media (min-width: 1200px)     
+        .nav-desctiption
+            font-size: 13px;
+        .nav-name
+            font-size: 14px;
+    
+    @media (min-width: 992px) and (max-width: 1200px)
+        .nav-desctiption
+            font-size: 11px;
+        .nav-name
+            font-size: 13px;
+        
+    @media (max-width: 992px)
+        .nav-desctiption
+            font-size: 13px;
+        .nav-name
+            font-size: 14px;
+
+    .nav-item
+        margin-left: 40px
+        .nav-desctiption
+            position: relative
+            padding-left: 24px
+            font-family: Lato;
+            line-height: 17px;
+            color: #FFFFFF;
+        .nav-name
+            line-height: 17px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            padding-top: 11px
+        .nav-link:hover span
+            color: #1870b3 !important
+        .nav-link
+            margin-left: 15px
+            margin-right: 0 !important
+    .nav-item-scrolled
+        .nav-desctiption
+            color: #000000;
+            .nav-svg
+                svg path 
+                    fill: #005FA3
+        .nav-name
+            color: #000000;
+       
+    &-brand
+        position: relative
+        display: flex
+        justify-content: center
+        align-items: center
+        p
+            font-family: Open Sans
+            font-weight: 800
+            font-size: 36px
+            margin-bottom: 0
+            padding-left: 11px    
+    &-logo-container
+        p
+            color: #FFFFFF
+    &-logo-container-scrolled
+        p
+            color: #005FA3
+        svg
+            path
+                fill: #005FA3
+        
+
+    .point
+        display: flex
+        align-items: center
+        justify-content: center
+        svg:nth-child(2)
+            position: absolute
+            margin-bottom: 6px
+        
+    .clock
+        display: flex
+        align-items: center
+        justify-content: center
+        svg:nth-child(2)
+            position: absolute
+            margin-left: 2px
+   
+
+    
+
+    .active
+        border-bottom: 1px solid #000
