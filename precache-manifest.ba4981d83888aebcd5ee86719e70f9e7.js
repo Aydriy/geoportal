@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0564d3518cf74ecaeb8c3d35fc066dc",
+    "revision": "e460ab8fa9b1e710653a69736b1336c2",
     "url": "/geoportal/index.html"
   },
   {
-    "revision": "64f73871bf574c167cb1",
-    "url": "/geoportal/static/css/main.a3f94787.chunk.css"
+    "revision": "575d30084c90562b4d1e",
+    "url": "/geoportal/static/css/main.00360efd.chunk.css"
   },
   {
     "revision": "986ca74fa953bc28e93a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/geoportal/static/js/2.e89f7766.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64f73871bf574c167cb1",
-    "url": "/geoportal/static/js/main.6c268db3.chunk.js"
+    "revision": "575d30084c90562b4d1e",
+    "url": "/geoportal/static/js/main.dad53882.chunk.js"
   },
   {
     "revision": "7c239a53ce3ece1da57d",

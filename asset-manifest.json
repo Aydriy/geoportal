@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/geoportal/static/css/main.a3f94787.chunk.css",
-    "main.js": "/geoportal/static/js/main.6c268db3.chunk.js",
-    "main.js.map": "/geoportal/static/js/main.6c268db3.chunk.js.map",
+    "main.css": "/geoportal/static/css/main.00360efd.chunk.css",
+    "main.js": "/geoportal/static/js/main.dad53882.chunk.js",
+    "main.js.map": "/geoportal/static/js/main.dad53882.chunk.js.map",
     "runtime-main.js": "/geoportal/static/js/runtime-main.eb192b75.js",
     "runtime-main.js.map": "/geoportal/static/js/runtime-main.eb192b75.js.map",
     "static/js/2.e89f7766.chunk.js": "/geoportal/static/js/2.e89f7766.chunk.js",
     "static/js/2.e89f7766.chunk.js.map": "/geoportal/static/js/2.e89f7766.chunk.js.map",
     "index.html": "/geoportal/index.html",
-    "precache-manifest.7011ac380b19c23e795d2ee445fe41c4.js": "/geoportal/precache-manifest.7011ac380b19c23e795d2ee445fe41c4.js",
+    "precache-manifest.ba4981d83888aebcd5ee86719e70f9e7.js": "/geoportal/precache-manifest.ba4981d83888aebcd5ee86719e70f9e7.js",
     "service-worker.js": "/geoportal/service-worker.js",
-    "static/css/main.a3f94787.chunk.css.map": "/geoportal/static/css/main.a3f94787.chunk.css.map",
+    "static/css/main.00360efd.chunk.css.map": "/geoportal/static/css/main.00360efd.chunk.css.map",
     "static/js/2.e89f7766.chunk.js.LICENSE.txt": "/geoportal/static/js/2.e89f7766.chunk.js.LICENSE.txt",
     "static/media/style.sass": "/geoportal/static/media/tabs-bg.6adb832d.png",
     "static/media/building.jpg": "/geoportal/static/media/building.0eb354db.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.eb192b75.js",
     "static/js/2.e89f7766.chunk.js",
-    "static/css/main.a3f94787.chunk.css",
-    "static/js/main.6c268db3.chunk.js"
+    "static/css/main.00360efd.chunk.css",
+    "static/js/main.dad53882.chunk.js"
   ]
 }
