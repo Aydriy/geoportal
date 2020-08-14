@@ -6,10 +6,10 @@ export default function LoremTabs() {
     <div className="tabs">
       <div className="container">
         <div className="tabs-container">
-          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
+          <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li className="nav-item" role="presentation">
               <a
-                class="nav-link active"
+                className="nav-link active"
                 id="pills-home-tab"
                 data-toggle="pill"
                 href="#pills-home"
@@ -20,9 +20,9 @@ export default function LoremTabs() {
                 Lorem Ipsum 1
               </a>
             </li>
-            <li class="nav-item" role="presentation">
+            <li className="nav-item" role="presentation">
               <a
-                class="nav-link"
+                className="nav-link"
                 id="pills-profile-tab"
                 data-toggle="pill"
                 href="#pills-profile"
@@ -34,9 +34,9 @@ export default function LoremTabs() {
               </a>
             </li>
           </ul>
-          <div class="tab-content" id="pills-tabContent">
+          <div className="tab-content" id="pills-tabContent">
             <div
-              class="tab-pane fade show active"
+              className="tab-pane fade show active"
               id="pills-home"
               role="tabpanel"
               aria-labelledby="pills-home-tab"
@@ -57,7 +57,7 @@ export default function LoremTabs() {
               </div>
             </div>
             <div
-              class="tab-pane fade"
+              className="tab-pane fade"
               id="pills-profile"
               role="tabpanel"
               aria-labelledby="pills-profile-tab"
